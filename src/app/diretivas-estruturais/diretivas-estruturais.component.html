@@ -35,7 +35,8 @@
 <!--
 <input type="text" [(ngModel)]="nome">
 -->
-<input type="text" [(ngModel)]="nome">
+
+
 <div [ngSwitch]="nome">
   <p *ngSwitchCase="'Dener'">
     Dener
@@ -43,6 +44,6 @@
   <p *ngSwitchCase="'Nay'">
     Nay
   </p>
-  <!--<p *ngSwitchDefault>    Bad!!!  </p>-->
+  <p *ngSwitchDefault>    Bad!!!  </p>
 </div>
 
