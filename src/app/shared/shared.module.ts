@@ -10,6 +10,10 @@ import { InputComponent } from './input/input.component';
     NewComponentComponent,
     InputComponent
   ],
+  exports:[
+    NewComponentComponent,
+    InputComponent
+  ],
   imports: [
     CommonModule
   ]
