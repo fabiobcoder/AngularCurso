@@ -9,6 +9,8 @@ import { DiretivasEstruturaisComponent } from './diretivas-estruturais/diretivas
 import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
 import { SharedModule } from "./shared/shared.module";
 import { FormComponent } from './form/form.component';
+import { RotasComponent } from './rotas/rotas.component';
+import { RoteamentoComponent } from './roteamento/roteamento.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +19,9 @@ import { FormComponent } from './form/form.component';
         DataBidingComponent,
         DiretivasEstruturaisComponent,
         DiretivasAtributosComponent,
-        FormComponent
+        FormComponent,
+        RotasComponent,
+        RoteamentoComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
